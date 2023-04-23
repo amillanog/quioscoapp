@@ -1,0 +1,44 @@
+.main_layout {
+    display: grid;
+    grid-template-columns: 300px 2fr;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main_aside {
+    height: 100%;
+}
+
+.main_aside_nav {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.main_main {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+    padding: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .main_layout {
+        grid-template-columns: 1fr;
+    }
+
+    .main_aside_nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .main_aside_nav {
+        max-height: 100%;
+
+    }
+}

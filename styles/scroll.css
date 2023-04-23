@@ -1,0 +1,102 @@
+/* Estilos para barra de scroll Webkit y blink (Chrome, Safari, Opera... )*/
+
+.scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.scroll::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+
+
+.scroll::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray-1);
+    border-radius: 5px;
+    border: none;
+}
+
+.scroll::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Estilos para barra de scroll firefox*/
+.scroll {
+    scrollbar-color: var(--color-text) transparent;
+    scrollbar-width: thin;
+}
+
+
+/* Estilos para barra de scroll Webkit y blink (Chrome, Safari, Opera... )*/
+
+.scroll-hide::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.scroll-hide::-webkit-scrollbar:vertical {
+    width: 0;
+}
+
+
+.scroll-hide::-webkit-scrollbar:horizontal {
+    height: 0;
+}
+
+.scroll-hide::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+}
+
+.scroll-hide::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Estilos para barra de scroll firefox*/
+.scroll-hide {
+    scrollbar-color: transparent transparent;
+    scrollbar-width: thin;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+    .scroll::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+
+    .scroll::-webkit-scrollbar:vertical {
+        width: 0;
+    }
+
+
+    .scroll::-webkit-scrollbar:horizontal {
+        height: 0;
+    }
+
+    .main-aside::-webkit-scrollbar:vertical {
+        width: 0;
+    }
+
+    .scroll::-webkit-scrollbar:horizontal {
+        height: 0;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+
+
+}

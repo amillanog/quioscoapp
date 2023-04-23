@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 940.2 1691" style="enable-background:new 0 0 940.2 1691;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#263239;}
+	.st1{fill:#4F46FF;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st2{opacity:0.6;fill:#FFFFFF;enable-background:new    ;}
+	.st3{fill:#FBCB38;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path class="st0" d="M8.8,0h922.5c4.9,0,8.8,4,8.8,8.8v1673.3c0,4.9-4,8.8-8.8,8.8H8.8c-4.9,0-8.8-4-8.8-8.8V8.8C0,4,4,0,8.8,0z"/>
+<path class="st1" d="M908.4,56.7v1574.7c0,12.9-10.4,23-23.4,23H52.6c-11.9,0-20.9-9.2-20.9-21.1V54.8c0-10.3,7.6-19.3,17.9-19.3
+	h208.1c5.9,0,11.2,3.8,13.4,9.4l8.6,21.2c2.2,5.5,7.5,9.3,13.4,9.3h354.3c5.9,0,11.2-3.6,13.4-9.1l8.6-21.3
+	c2.2-5.5,7.5-9.4,13.4-9.4H888C899.4,35.4,908.4,45.3,908.4,56.7C908.4,56.6,908.4,56.6,908.4,56.7z"/>
+<rect x="31.7" y="133.8" class="st2" width="876.7" height="1432"/>
+<g>
+	<g>
+		<rect x="128.4" y="84.4" class="st2" width="10.8" height="14.4"/>
+		<rect x="110.7" y="79.6" class="st2" width="10.8" height="19.2"/>
+		<rect x="93" y="74.8" class="st2" width="10.8" height="24.1"/>
+		<rect x="75.4" y="70" class="st2" width="10.8" height="28.9"/>
+	</g>
+	<g>
+		<rect x="802.8" y="79.2" class="st2" width="6.4" height="14.4"/>
+		<rect x="813.6" y="73.9" class="st2" width="51.1" height="25"/>
+	</g>
+</g>
+<g>
+	<circle class="st2" cx="457.9" cy="37.5" r="12"/>
+	<path class="st2" d="M494.3,37.5c0,4.3-3.5,7.7-7.7,7.7s-7.7-3.5-7.7-7.7s3.5-7.7,7.7-7.7S494.3,33.2,494.3,37.5z"/>
+</g>
+<circle class="st3" cx="470.1" cy="845.5" r="355.2"/>
+<polyline class="st4" points="255.4,826.9 410.9,982.5 684.8,708.5 "/>
+</svg>

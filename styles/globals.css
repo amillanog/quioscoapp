@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./scroll.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+
+body {
+  font-family: 'Poppins', Helvetica, Arial, Sans-Serif;
+  ;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+
+#__next {
+  height: 100%;
+}
+
+@media screen and (max-width:768px) {
+  body {
+    overflow-y: auto;
+  }
+}
