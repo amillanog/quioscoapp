@@ -26,9 +26,10 @@ const SidebarAdmin = () => {
         {navdata.map((ordenes) => (
           <div
             key={ordenes.id}
+            onClick={() => handleOrdenesAdmin(ordenes.id)}
             className={`${
               ordenes.id === ordenesAdmin.id ? `bg-amber-300` : ""
-            } flex items-center gap-0 w-full border p-3 h-100% hover:bg-amber-300 flex-col sm:gap-2 sm:flex-row h-24 `}
+            } flex items-center gap-0 w-full border p-3 h-100% hover:bg-amber-300 flex-col sm:gap-2 sm:flex-row h-100 cursor-pointer`}
           >
             <Image
               width="0"
@@ -37,11 +38,7 @@ const SidebarAdmin = () => {
               src={`/assets/img/icono_${ordenes.icono}.svg`}
               alt="Imagen icono"
             />
-            <button
-              type="button"
-              className="text-2xl font-bold hover:cursor-pointer "
-              onClick={() => handleOrdenesAdmin(ordenes.id)}
-            >
+            <button type="button" className="text-2xl font-bold ">
               {ordenes.nombre}
             </button>
           </div>

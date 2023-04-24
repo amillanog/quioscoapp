@@ -26,12 +26,23 @@
 @media screen and (max-width:768px) {
     .main_layout {
         grid-template-columns: 1fr;
+        min-height: 100vh;
+        overflow: auto;
+    }
+    .main_main {        
+        max-height: 100%;        
     }
 
     .main_aside_nav {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         max-height: 100%;
+    }
+}
+@media screen and (max-width:520px) {
+
+    .main_aside_nav {     
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));     
     }
 }
 
