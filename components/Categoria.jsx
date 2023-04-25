@@ -10,7 +10,7 @@ const Categoria = ({ categorie }) => {
       onClick={() => handleClickCategorie(id)}
       className={`${
         currentCategorie?.id === id ? `bg-amber-300` : ""
-      } flex items-center gap-0 w-full border p-3 h-100% hover:bg-amber-300 flex-col sm:gap-2 sm:flex-row cursor-pointer `}
+      } flex items-center gap-0 w-full border p-3  hover:bg-amber-300 flex-col sm:gap-2 sm:flex-row cursor-pointer `}
     >
       <Image
         width="0"

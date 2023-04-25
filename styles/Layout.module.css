@@ -10,7 +10,7 @@
 }
 
 .main_aside_nav {
-    max-height: calc(100vh - 150px);
+    max-height: calc(100vh - 220px);
     overflow-y: auto;
     overflow-x: hidden;
 }

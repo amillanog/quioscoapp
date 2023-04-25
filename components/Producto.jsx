@@ -7,7 +7,7 @@ const Producto = ({ producto }) => {
   const { handleSetProduct, handleChangeModal } = useQuiosco();
 
   return (
-    <div className="border p-3 bg-white/[.8] rounded">
+    <div className="border  bg-white/[.6] rounded grid gap-4 p-3 grid-rows-[max-content _1fr]">
       <Image
         src={`/assets/img/${imagen}.jpg`}
         alt={`Imagen platillo ${nombre}`}
@@ -17,9 +17,9 @@ const Producto = ({ producto }) => {
         priority={true}
       />
 
-      <div className="p-5">
-        <h3 className="text-xl font-bold mb-5">{nombre}</h3>
-        <p className="mb-5 font-bold text-3xl text-amber-500">
+      <div className="grid gap-3 grid-rows-[1fr_2rem_3rem]">
+        <h3 className="text-xl font-bold ">{nombre}</h3>
+        <p className="font-bold text-3xl text-amber-500">
           {formatMoney(precio)}
         </p>
         <button

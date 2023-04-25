@@ -24,7 +24,7 @@ const Rutas = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-4 mb-5 sm:flex-row sm:justify-between">
+      <div className="flex gap-4 justify-between flex-wrap py-10">
         {rutas.map((ruta) => (
           <button
             onClick={() => {
