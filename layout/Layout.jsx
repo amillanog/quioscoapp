@@ -15,7 +15,7 @@ export default function Layout({ children, pagina }) {
   return (
     <>
       <Head>
-        <title>Café - {pagina || ""}</title>
+        <title>Café - {pagina}</title>
         <meta name="description" content="Quiosco Cafetería" />
       </Head>
       <div className={`${s.main_layout}`}>
